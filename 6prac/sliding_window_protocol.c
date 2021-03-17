@@ -12,7 +12,7 @@ int main()
 
 	printf("\nEnter %d frames: ", f);
 
-	for(i=1;i<=f;i++)
+	for(i = 1 ; i <= f ; i++)
 		scanf("%d", &frames[i]);
 
 	printf("\nWith sliding window protocol the frames will be sent in the following manner (assuming no corruption of frames)\n\n");

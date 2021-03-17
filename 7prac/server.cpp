@@ -57,8 +57,7 @@ int main(int argc, char** argv)
 		nc->rebind(name,o);
 		// Activate the POA
 		manager->activate();
-		cout << "The server is ready.
-			Awaiting for incoming requests..." << endl;
+		cout << "The server is ready. Awaiting for incoming requests..." << endl;
 		// Start the ORB
 		orb->run();
 	} catch(const CORBA::Exception& e) {
